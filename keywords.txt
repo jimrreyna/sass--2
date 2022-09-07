@@ -1,1 +1,4 @@
 Agregue los siguientes Keywords:
+1.- Se agrego titulos a todas las páginas.
+2.- Agregamos un meta description en todas las paginas, index, nosotros,productos,
+galeria,contactenos.
