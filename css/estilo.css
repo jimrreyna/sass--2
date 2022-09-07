@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 2rem;
+  font-family: 'Edu TAS Beginner', cursive; }
+  body .encabezado {
+    background-color: #C8F10F;
+    background-position: left;
+    height: 25vh;
+    width: 100%;
+    position: relative;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    grid-area: header; }
+  body nav {
+    background-color: #720FF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    grid-area: nav; }
+    body nav ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 2rem; }
+      body nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black; }
+
+section {
+  margin: 1rem;
+  padding: 0.5rem;
+  height: 40rem;
+  /*uso flex*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 25rem; }
+  section img {
+    width: 25rem;
+    border-radius: 1rem;
+    /**padding-top: 2rem;**/ }
+
+.seccionA {
+  grid-area: seccionA;
+  background-color: azure; }
+
+.seccionB {
+  grid-area: seccionB;
+  background-color: azure; }
+
+.seccionC {
+  grid-area: seccionC;
+  background-color: azure; }
+
+.seccionD {
+  grid-area: seccionD;
+  background-color: azure; }
+
+.gridPadre {
+  display: grid;
+  grid-template-areas: "header header header header" "nav nav nav nav" "seccionA seccionB seccionC seccionD" "footer footer footer footer"; }
+
+footer {
+  margin-top: 5rem;
+  padding-top: 5rem;
+  background-color: #120FF1;
+  text-align: center;
+  grid-area: footer; }
+  footer ul li {
+    display: inline-block;
+    margin: 2rem; }
+    footer ul li a {
+      text-decoration: none;
+      color: black; }
+      footer ul li a:hover {
+        background-color: white; }
+
+/* MAPS */
+.facebook {
+  color: #52BE80; }
+
+.instagram {
+  color: #EB984E; }
+
+.Whatsapp {
+  color: #F4D03F; }
+
+/* MAP - GET */
+.encabezado {
+  background-color: #E8DAEF;
+  background-position: left; }

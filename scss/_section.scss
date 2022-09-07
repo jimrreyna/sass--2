@@ -1,0 +1,48 @@
+section {
+  margin: 1rem;
+  padding: 0.5rem;
+  height: 40rem;
+  /*uso flex*/
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between; 
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 25rem;
+  
+  img {
+    width: 25rem;
+    border-radius: 1rem;
+    /**padding-top: 2rem;**/
+  }
+}
+
+
+.seccionA{
+  grid-area: seccionA;
+  background-color: $color-section;
+}
+
+.seccionB{
+  grid-area: seccionB;
+  background-color: $color-section;
+  }
+  .seccionC{
+    grid-area: seccionC;
+    background-color: $color-section;
+  }
+  
+  .seccionD{
+    grid-area: seccionD;
+    background-color: $color-section;
+    }
+
+    .gridPadre {
+      display: grid;
+      grid-template-areas:
+    "header header header header"
+    "nav nav nav nav"
+    "seccionA seccionB seccionC seccionD"
+    "footer footer footer footer"
+    ;
+  }
