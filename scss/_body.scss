@@ -2,23 +2,24 @@ body {
     font-size: 2rem;
     font-family: 'Edu TAS Beginner', cursive;
 .encabezado{
-    background-color: $color-fondo;
-    background-position: left;
-    height: 25vh;
+    //*background-color: $color-fondo;
+    //*background-position: left;
+    height: 20vh;
     width: 100%;
     position:relative;
     padding-top: 2rem;
-    padding-left: 2rem;
+    padding-left: 70rem;
     grid-area: header;
 }
-nav{
-    background-color:  #720FF1 ;
+.nav{
+    background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: center;
     position:sticky;
     top: 0;
     grid-area: nav;
+}
 
     ul li{
         list-style: none;
@@ -30,7 +31,5 @@ nav{
             font-weight: bold;
             color:black;
             }
-            }
-
-        }
-}
+         }
+     }

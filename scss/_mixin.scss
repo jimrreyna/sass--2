@@ -1,0 +1,24 @@
+/* MIXIN SIN PARAMETROS*/
+
+@mixin estilos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.parrafosConEstilo{
+    @include estilos;
+}
+
+
+/* MIXIN CON PARAMETROS*/
+
+@mixin divLogo($size, $alineacion){
+    size: $size;
+    align-items: $alineacion;
+}
+
+.divLogo{
+    @include divLogo(1.5rem,center )
+}
+

@@ -1,5 +1,5 @@
 /* MAPS */
-$mapRedes:(facebook:#52BE80 , instagram:#EB984E  , Whatsapp:#F4D03F );
+$mapRedes:(facebook:#FFCCFF, instagram:#330000  , Whatsapp:#99CC00  );
 
 @each $redSocial, $color in $mapRedes {
     .#{$redSocial}{
@@ -10,10 +10,10 @@ $mapRedes:(facebook:#52BE80 , instagram:#EB984E  , Whatsapp:#F4D03F );
 
 /* MAP - GET */
 
-$estilo: (color:#E8DAEF , alig:left);
+$estilo: (color:#33FF33 , align:left);
 
 .encabezado{
     background-color: map-get($estilo , color );
-    background-position: map-get($estilo , alig );
+    background-position: map-get($estilo , align );
     
 }

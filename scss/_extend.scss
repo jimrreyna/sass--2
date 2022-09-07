@@ -1,0 +1,15 @@
+/* EXTEND */
+
+.nav2{
+    background-color:  blue ;
+    display: flex;
+    align-items: center;
+    grid-area: nav;
+}
+
+.nav{
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    @extend .nav2;
+}
