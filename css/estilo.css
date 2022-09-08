@@ -36,13 +36,13 @@ body {
 section {
   margin: 1rem;
   padding: 0.5rem;
-  height: 40rem;
+  height: 50rem;
   /*uso flex*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   padding-bottom: 25rem; }
   section img {
     width: 25rem;
